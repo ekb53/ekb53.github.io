@@ -2,14 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-/* Default styles for all screen sizes */
-
-/* Media query for screens with a minimum width of 768px (tablets and up) */
-@media (min-width: 768px) {
-  /* Styles for tablets and larger screens */
-}
-
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
