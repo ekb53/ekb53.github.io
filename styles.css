@@ -124,6 +124,19 @@ nav a:hover {
 
 .projects-row {
   display: flex;
+  flex-direction: column; 
+  padding: 1em;
+
+  /* Media query for screens with a minimum width of 768px (tablets and up) */
+   @media (min-width: 768px) {
+    
+    }
+  
+  
+    @media (min-width: 1024px) {
+      flex-direction: row
+    }
+  
 }
 
 .projects {
@@ -136,7 +149,10 @@ nav a:hover {
   /* max-width: 100%; */
   padding: 1em;
   margin: 1em;
-  width: 25em;
+/*   width: 25em; */
+
+
+  
 }
 
 /* .section2 {
