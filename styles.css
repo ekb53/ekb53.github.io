@@ -174,11 +174,11 @@ button a {
 }
 
 button a:hover {
-  background-color: #ddd;
+  background-color: gray;
 }
 
 button a:active {
-  background-color: #aaa;
+  background-color: #00a6fb;
 }
 
 .contact {
